@@ -1,0 +1,110 @@
+
+/* Reset & Base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background */
+    color: #fff;            /* White text */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000; /* Black navbar */
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #444;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #aaa; /* Light gray on hover */
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+/* Headings */
+h2 {
+    color: white;
+    border-bottom: 1px solid #444;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    filter: grayscale(100%); /* Make images black & white */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #000;
+    color: white;
+    padding: 1rem;
+    border-top: 1px solid #444;
+}
+
+/* Lists (Achievements) */
+ul {
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.75rem;
+}
+
+/* Video Container */
+.video-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+iframe {
+    border-radius: 10px;
+    max-width: 100%;
+    border: 1px solid #444;
+}
+
+/* Responsive Nav */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+}
+
