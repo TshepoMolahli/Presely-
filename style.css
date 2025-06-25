@@ -1,0 +1,130 @@
+
+/* Reset & Base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    color: #ffd700;
+}
+
+/* Hero Section */
+.home-section {
+    background: #333;
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Bio Section */
+main {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.bio img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.bio-text {
+    flex: 1;
+}
+
+/* Achievements */
+.career ul {
+    list-style: none;
+    padding: 0;
+}
+
+.career li {
+    background: #e0e0e0;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border-left: 5px solid #444;
+}
+
+/* Gallery */
+.media img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 8px;
+}
+
+/* Videos */
+.videos {
+    margin-top: 3rem;
+}
+
+.video-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.video-container iframe {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+}
